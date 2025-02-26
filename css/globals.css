@@ -30,6 +30,11 @@ h1 {
   color: var(--primary-color);
 }
 
+h2 {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
 .secondary-title {
   font-size: 4rem;
   font-weight: 700;
