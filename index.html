@@ -92,7 +92,6 @@
           <li>
             <a href="#"><img src="assets/facebook.svg" alt="Facebook" /></a>
           </li>
-
         </ul>
       </div>
       <div class="about__right">
@@ -250,17 +249,18 @@
       <ul>
         <li>
           <div class="image">
-            <img src="assets/salesforceuipath.png" alt="Gerenciamento de tarefas" />
+            <img src="assets/tf_py.png" alt="Gerenciamento de tarefas" />
           </div>
           <div class="projects__info">
             <h3 class="tertiary-title">
-              Salesforce Automation: <br>Company Deployment Process in Salesforce with UiPath
+              Recognition and Classification of Medical Guides
             </h3>
             <p>
-              The manual process involved receiving a spreadsheet from the broker by email, 
-              downloading it, and manually entering the data into Salesforce. <br>UiPath was used for automation, 
-              with a flowchart created for both the manual and RPA processes. The RPA was developed to automatically handle emails, 
-              download spreadsheets, save cell values in variables, and populate Salesforce fields with these values.
+              This project aims to determine whether a file corresponds to a medical guide. To achieve this, 
+              a hybrid approach is adopted that combines OCR text extraction techniques with the use of regular expressions 
+              (Regex) to detect essential keywords such as ICD, Specialty, and Date. Additionally, TensorFlow is employed 
+              to train a model capable of recognizing specific patterns of medical guides compared to other types of documents, 
+              enabling more accurate classification.
             </p>
             <a href="#">More &rarr;</a>
           </div>
@@ -271,30 +271,31 @@
           </div>
           <div class="projects__info">
             <h3 class="tertiary-title">
-              Product Registration Automation in ERP with Python
+              Collection of High-Level Employees from Companies
             </h3>
             <p>
-              A company needed to migrate 5,000 products from one ERP system to another, which would have taken months. <br>
-              I used Python and Selenium to automate capturing the fields from the product spreadsheet and entering them 
-              into the new ERP system. This process was completed in a few hours, saving months of repetitive work.
+              This project implements an automation developed using Selenium that accesses LinkedIn and performs filtered 
+              searches for the state of Paraná. From the list of identified companies, each organization is accessed individually 
+              so that the automation can extract relevant high-level positions from the "Insights" tab. The collected data is then 
+              stored in a database table for further analysis.
             </p>
             <a href="#">More &rarr;</a>
           </div>
         </li>
         <li>
           <div class="image">
-            <img src="assets/powerautomate.png" alt="delivery" />
+            <img src="assets/consulta_cpf.png" alt="delivery" />
           </div>
           <div class="projects__info">
             <h3 class="tertiary-title">
-              Automating Customer Load in the System using Power Automate
+              CPF Lookup at the Federal Revenue Service
             </h3>
             <p>
-              This task involved updating a customer spreadsheet connected to a database, 
-              creating two copies of the spreadsheet (one for additions and one for modifications), 
-              and modifying the column in the modification copy. Then, each spreadsheet was converted from .xlsx to .csv and split into two parts. 
-              After these steps, the four resulting files were uploaded to the system to update the customers.
-              This entire process was automated using Microsoft's Power Automate tool.
+              This project involves developing a database trigger that automatically adds a client's CPF to the project table each time 
+              new data is inserted into the client table. Subsequently, an automation executes a query to gather the newly inserted data 
+              (CPF and Date of Birth) and submits it to the Federal Revenue Service website. Finally, the system retrieves the CPF holder's 
+              name and status, updating the database to ensure the information remains accurate and current.
+            </p>
             </p>
             <a href="#">More &rarr;</a>
           </div>
@@ -329,7 +330,7 @@
        
         <br>
         <p class="footer__copyright">
-          © 2024 David Matheus.
+          © 2025 David Matheus.
         </p>
       </div>
     </footer>
